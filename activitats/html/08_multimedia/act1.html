@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mis podcasts favoritos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Mis podcasts favoritos</h1>
+    <p>Últimos episodios listos para escuchar</p>
+  </header>
+
+  <main class="podcast-grid">
+    <!-- Entiende Tu Mente -->
+    <article class="podcast-card">
+      <img src="img/entiende-tu-mente.png" alt="Logo Entiende Tu Mente" class="podcast-logo" />
+      <div class="podcast-info">
+        <h2>Entiende Tu Mente</h2>
+        <p class="episode-title">Episodio: Cómo gestionar la ansiedad</p>
+        <audio controls preload="metadata">
+          <source src="audio/entiende-tu-mente-ansiedad.mp3" type="audio/mpeg" />
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+      </div>
+    </article>
+
+    <!-- Nadie Sabe Nada -->
+    <article class="podcast-card">
+      <img src="img/nadie-sabe-nada.png" alt="Logo Nadie Sabe Nada" class="podcast-logo" />
+      <div class="podcast-info">
+        <h2>Nadie Sabe Nada</h2>
+        <p class="episode-title">Episodio: Preguntas absurdas y respuestas peores</p>
+        <audio controls preload="metadata">
+          <source src="audio/nadie-sabe-nada-episodio.mp3" type="audio/mpeg" />
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+      </div>
+    </article>
+
+    <!-- TED en Español -->
+    <article class="podcast-card">
+      <img src="img/ted-en-espanol.png" alt="Logo TED en Español" class="podcast-logo" />
+      <div class="podcast-info">
+        <h2>TED en Español</h2>
+        <p class="episode-title">Episodio: Ideas que cambian tu forma de pensar</p>
+        <audio controls preload="metadata">
+          <source src="audio/ted-en-espanol-ideas.mp3" type="audio/mpeg" />
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Mis podcasts favoritos</p>
+  </footer>
+
+  <script src="player.js"></script>
+</body>
+</html>
